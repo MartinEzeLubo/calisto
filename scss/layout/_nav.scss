@@ -1,6 +1,8 @@
 nav {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
+    height: 800px;
+    flex-shrink: 0;
 }
 
 .navLinks {
