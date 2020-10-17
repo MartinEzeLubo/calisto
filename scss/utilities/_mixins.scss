@@ -1,0 +1,28 @@
+@mixin media($media) {
+    @if $media==sm {
+        @media (max-width: $breakpoint-sm) {
+            @content;
+        }
+    }
+    @else if $media==md {
+        @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+            @content;
+        }
+    }
+    @else if $media==lg {
+        @media (min-width: $breakpoint-md) {
+            @content;
+        }
+    }
+}
+
+@mixin font($family, $generic: "", $weight:400) {
+    font-weight: $weight;
+    @if $generic !="" {
+        font-family: "#{$family}",
+        #{$generic};
+    }
+    @else {
+        font-family: "#{$family}";
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <title>White Queen | Joyas de lujo</title>
+    <meta name="description" content="En White Queen encontraras las mas selectas joyas">
+    <meta name="keywords" content="joyas, lujo, pendientes, colgantes, gargantillas brazaletes, anillo, alianza, boda, compromiso, fiesta, elegante">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="headerWrapper">
+        <header>
+            <div class="logoHeader">
+                <a href="index.html">
+                    <img src="./img/header/logo.png" alt="Logo White Queen">
+                </a>
+            </div>
+            <div class="tituloHeader">
+                <div><a href="index.html">WHITE QUEEN</a></div>
+            </div>
+            <div class="subtituloHeader">JEWELRY</div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li>CATEGORIAS
+                    <ul>
+                        <li><a href="pendientes.html">PENDIENTES</a></li>
+                        <li><a href="collares.html">COLLARES</a></li>
+                        <li><a href="brazaletes.html">BRAZALETES</a></li>
+                        <li><a href="anillos.html">ANILLOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="mujeres.html">MUJERES</a></li>
+                <li><a href="hombres.html">HOMBRES</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

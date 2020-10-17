@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+    background-color: #1a1b29;
+    .bodyContent {
+        background-color: $colorFondo;
+        max-width: 1140px;
+        margin: 0 auto;
+        height: 100%;
+    }
+}

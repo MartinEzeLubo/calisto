@@ -1,0 +1,16 @@
+{
+    "name": "calisto",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass -w scss/style.scss -o css/",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}

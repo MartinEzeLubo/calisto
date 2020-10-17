@@ -1,0 +1,55 @@
+.navLinks {
+    padding: 20px;
+    font-size: 0px;
+    @include font($fontSecundaria, 'sans-serif', 300);
+    @include media(lg) {
+        display: flex;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        display: flex;
+        letter-spacing: 3px;
+        padding: 0px 20px 0px 20px;
+        margin: 0px;
+        position: relative;
+    }
+}
+
+ul li a {
+    color: $colorLink;
+}
+
+a {
+    display: inline;
+    &:link {
+        color: $colorLink;
+        text-decoration: none;
+    }
+    &:visited {
+        color: $colorLinkVisited;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $colorHover;
+    }
+}
+
+ul {
+    li:hover {
+        color: $colorHover;
+    }
+    li:hover>ul {
+        display: block;
+    }
+}
