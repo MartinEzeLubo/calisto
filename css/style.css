@@ -54,7 +54,7 @@ body {
 nav {
   flex-direction: column;
   justify-content: center;
-  height: 800px;
+  height: 100vh;
   flex-shrink: 0; }
 
 .navLinks {
@@ -63,7 +63,7 @@ nav {
   align-items: center; }
 
 footer {
-  border-top: solid 5px #7Bc7c5;
+  border-top: solid 5px #9e0059cc;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -152,15 +152,21 @@ details {
   font-size: 4em; }
 
 nav {
-  background-image: url(".././img/bannerbw.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
+.navPrincipal {
+  background-image: url(".././img/bannerbw.jpg"); }
+
+.navServicios {
+  background-image: url(".././img/services/bgprincipal.jpg"); }
+
 .navLinks {
   padding: 20px;
   font-size: 0px;
+  background-color: #1a1b29;
   font-weight: 300;
   font-family: "Roboto", sans-serif; }
   @media (min-width: 700px) {
@@ -206,7 +212,7 @@ ul li:hover > ul {
 
 .navBrand {
   width: 100%;
-  background: rgba(158, 0, 89, 0.8);
+  background-color: #9e0059cc;
   text-align: center;
   vertical-align: middle;
   line-height: 60px;
@@ -226,32 +232,48 @@ ul li:hover > ul {
     height: 100px;
     width: 100%;
     background: #9e0059cc;
-    opacity: 100%;
+    opacity: 80%;
     text-align: center;
     vertical-align: middle;
     line-height: 100px; }
 
 .servicesContent {
   display: flex;
-  flex-direction: column; }
-  .servicesContent .scrollEfect {
-    /* The image used */
-    background-image: url(".././img/services/back01.png");
-    /* Set a specific height */
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+  flex-direction: column;
+  background-color: #9e0059cc; }
 
 .scrollEfect {
-  /* The image used */
-  background-image: url("img/services/back01.png");
-  /* Set a specific height */
-  height: 500px;
-  /* Create the parallax scrolling effect */
+  height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.scrollEfectBranding {
+  background-image: url(".././img/services/branding.jpg"); }
+
+.scrollEfectUXUI {
+  background-image: url(".././img/services/uxui.jpg"); }
+
+.scrollEfectWebDesign {
+  background-image: url(".././img/services/webdesign.jpg"); }
+
+.scrollEfectOthers {
+  background-image: url(".././img/services/otros.jpg"); }
+
+.serviceItem {
+  height: 600px;
+  padding-bottom: 30px; }
+  .serviceItem h2 {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 4em;
+    padding: 100px 0px 20px 0px; }
+  .serviceItem p {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 50px; }

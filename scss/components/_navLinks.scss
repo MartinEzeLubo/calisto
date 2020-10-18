@@ -1,6 +1,7 @@
 .navLinks {
     padding: 20px;
     font-size: 0px;
+    background-color: $colorBackground;
     @include font($fontSecundaria, 'sans-serif', 300);
     @include media(lg) {
         display: flex;

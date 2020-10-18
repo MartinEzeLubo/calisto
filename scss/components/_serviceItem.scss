@@ -1,0 +1,17 @@
+.serviceItem {
+    height: 600px;
+    padding-bottom: 30px;
+    h2 {
+        text-align: center;
+        @include font($fontSecundaria, 'sans-serif', 400);
+        color: $colorFuenteSecundaria;
+        font-size: 4em;
+        padding: 100px 0px 20px 0px;
+    }
+    p {
+        @include font($fontSecundaria, 'sans-serif', 300);
+        color: $colorFuenteSecundaria;
+        font-size: 2em;
+        padding: 50px;
+    }
+}

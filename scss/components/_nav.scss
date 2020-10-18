@@ -1,7 +1,14 @@
 nav {
-    background-image: url(".././img/bannerbw.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navPrincipal {
+    background-image: url(".././img/bannerbw.jpg");
+}
+
+.navServicios {
+    background-image: url(".././img/services/bgprincipal.jpg");
 }
