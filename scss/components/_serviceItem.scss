@@ -6,12 +6,14 @@
         @include font($fontSecundaria, 'sans-serif', 400);
         color: $colorFuenteSecundaria;
         font-size: 4em;
-        padding: 100px 0px 20px 0px;
+        padding: 100px 0px 10px 0px;
     }
     p {
         @include font($fontSecundaria, 'sans-serif', 300);
         color: $colorFuenteSecundaria;
         font-size: 2em;
-        padding: 50px;
+        padding: 0px 70px 0px 70px;
+        line-height: 2;
+        letter-spacing: 2px;
     }
 }
