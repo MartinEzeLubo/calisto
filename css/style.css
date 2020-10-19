@@ -209,3 +209,22 @@ ul li:hover > ul {
     @media (min-width: 600px) {
       .portfolioContent .portfolioItem {
         width: 33.33%; } }
+
+.nosotrosContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .nosotrosContent .nosotrosItem {
+    flex-direction: column;
+    width: 300px;
+    margin: 50px 20px 50px 20px;
+    background-color: #ffffff; }
+    .nosotrosContent .nosotrosItem img {
+      padding-top: 30px;
+      display: block;
+      margin: 0 auto; }
+    .nosotrosContent .nosotrosItem div {
+      color: #9e0059cc;
+      font-size: 2em;
+      margin: 50px 20px 20px 20px; }
