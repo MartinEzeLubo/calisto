@@ -22,10 +22,34 @@ $breakpoint-sm: 360px;
 $breakpoint-md: 600px;
 $breakpoint-lg: 1000px;
 
-/*****************  COLORES  ***********************/
+/*****************  Fonts  ***********************/
+
+@font-face {
+    font-family: 'chamberi_displayextrabold';
+    src: url('./fonts/chamberidisplay-extrabold-webfont.woff2') format('woff2'), url('./fonts/chamberidisplay-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futurabook';
+    src: url('./fonts/futuran-webfont.woff2') format('woff2'), url('./fonts/futuran-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avantgarde';
+    src: url('./fonts/ITCAvantGardeStd-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /*****************  COLORES  ***********************/
 
+// font-family: 'avantgarde', 'Arial', sans-serif;
+// font-weight: normal;
+// font-style: normal;
 
 /*****************  COLORES  ***********************/

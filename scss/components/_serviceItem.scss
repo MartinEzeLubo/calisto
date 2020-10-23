@@ -2,14 +2,14 @@
     height: 600px;
     padding-bottom: 30px;
     h2 {
+        font-family: 'avantgarde', 'Arial', sans-serif;
         text-align: center;
-        @include font($fontSecundaria, 'sans-serif', 400);
         color: $colorFuenteSecundaria;
         font-size: 4em;
         padding: 100px 0px 10px 0px;
     }
     p {
-        @include font($fontSecundaria, 'sans-serif', 300);
+        font-family: 'futurabook', 'Arial', sans-serif;
         color: $colorFuenteSecundaria;
         font-size: 2em;
         padding: 0px 70px 0px 70px;
