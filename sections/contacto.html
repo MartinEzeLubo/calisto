@@ -12,7 +12,47 @@
 
 <body>
     <div class="bodyContent">
+        <nav class="noBackground">
+            <div class="navBrand">
+                <div>
+                    <a href="../index.html">
+                        <p>Marla</p>
+                    </a>
 
+                </div>
+            </div>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="contactContent">
+            <div>
+                <form action="envia.php" method="post" class="form-consulta">
+                    <label>Nombre y apellido: <span>*</span>
+                        <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+                    </label>
+
+                    <label>Email: <span>*</span>
+                        <input type="email" name="email" placeholder="Email" class="campo-form" required>
+                    </label>
+
+                    <label>Consulta:
+                        <textarea name="consulta" class="campo-form"></textarea>
+                    </label>
+
+                    <input type="submit" value="Enviar" class="btn-form">
+                </form>
+            </div>
+
+        </div>
 
         <div class="indexBtn">
             <a href="../index.html">
@@ -22,7 +62,7 @@
             </a>
             <a href="portfolio.html">
                 <div class="indexBtn2">
-                    PORTFOLIO
+                    TRABAJOS
                 </div>
             </a>
             <a href="nosotros.html">
@@ -37,7 +77,6 @@
                 </div>
             </a>
         </div>
-
     </div>
 </body>
 

@@ -5,10 +5,22 @@ nav {
     background-size: cover;
 }
 
+.noBackground {
+    height: 115px;
+}
+
 .navPrincipal {
     background-image: url(".././img/1200x800_principal.jpg");
 }
 
 .navServicios {
+    background-image: url(".././img/services/bgprincipal.jpg");
+}
+
+.navPortfolio {
+    background-image: url(".././img/portfolio/bgprincipal.jpg");
+}
+
+.navContacto {
     background-image: url(".././img/services/bgprincipal.jpg");
 }
