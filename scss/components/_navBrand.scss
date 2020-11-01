@@ -12,4 +12,17 @@
     font-weight: normal;
     font-style: normal;
     color: white;
+    div {
+        display: flex;
+        justify-content: space-between;
+        @include media (lg) {
+            justify-content: center;
+        }
+        .icon {
+            padding-right: 20px;
+            @include media(lg) {
+                display: none;
+            }
+        }
+    }
 }
