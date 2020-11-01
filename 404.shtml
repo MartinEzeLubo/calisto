@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-<html lang="es-AR">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=320, initial-scale=1">
-    <title>White Queen | Joyas de lujo</title>
-    <meta name="description" content="En White Queen encontraras las mas selectas joyas">
-    <meta name="keywords" content="joyas, lujo, pendientes, colgantes, gargantillas brazaletes, anillo, alianza, boda, compromiso, fiesta, elegante">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Marla - Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/showMenu.js"></script>
 
 </head>
 
 <body>
-    <div class="headerWrapper">
-        <header>
-            <div class="logoHeader">
-                <a href="index.html">
-                    <img src="./img/header/logo.png" alt="Logo White Queen">
-                </a>
+    <div class="bodyContent">
+        <nav class="noBackground">
+            <div class="navBrand">
+                <div>
+                    <a href="../index.html">
+                        <p>Marla</p>
+                    </a>
+
+                </div>
             </div>
-            <div class="tituloHeader">
-                <div><a href="index.html">WHITE QUEEN</a></div>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                </ul>
             </div>
-            <div class="subtituloHeader">JEWELRY</div>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li>CATEGORIAS
-                    <ul>
-                        <li><a href="pendientes.html">PENDIENTES</a></li>
-                        <li><a href="collares.html">COLLARES</a></li>
-                        <li><a href="brazaletes.html">BRAZALETES</a></li>
-                        <li><a href="anillos.html">ANILLOS</a></li>
-                    </ul>
-                </li>
-                <li><a href="mujeres.html">MUJERES</a></li>
-                <li><a href="hombres.html">HOMBRES</a></li>
-            </ul>
         </nav>
+
+        <div class="contactContent">
+            <div class="form-consulta">
+                <p class="confirmaText"> La pagina que estas buscando no existe :(</p>
+                <div>
+                    <a href="https://estudiomarla.com.ar">Volver al inicio</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="indexBtn">
+            <a href="../index.html">
+                <div class="indexBtn1">
+                    INICIO
+                </div>
+            </a>
+            <a href="portfolio.html">
+                <div class="indexBtn2">
+                    TRABAJOS
+                </div>
+            </a>
+            <a href="nosotros.html">
+                <div class="indexBtn3">
+                    NOSOTROS
+                </div>
+            </a>
+            <a href="contacto.html">
+                <div class="indexBtn4">
+                    CONTACTO
+
+                </div>
+            </a>
+        </div>
     </div>
 </body>
 
