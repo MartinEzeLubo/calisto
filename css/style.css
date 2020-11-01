@@ -102,11 +102,13 @@ nav {
   font-size: 0px;
   background-color: #56534F;
   font-weight: 300;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  position: relative; }
   @media (min-width: 600px) {
     .navLinks {
       display: flex; } }
   .navLinks ul {
+    z-index: 99999;
     list-style-type: none;
     display: flex;
     flex-direction: row;

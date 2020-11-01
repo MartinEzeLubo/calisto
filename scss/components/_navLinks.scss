@@ -6,7 +6,9 @@
     @include media(lg) {
         display: flex;
     }
+    position: relative;
     ul {
+        z-index: 99999;
         list-style-type: none;
         display: flex;
         flex-direction: row;
