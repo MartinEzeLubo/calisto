@@ -49,22 +49,27 @@
         </div>
 
         <div class="indexBtn">
-            <a href="../index.html">
+            <a href="https://estudiomarla.com.ar">
                 <div class="indexBtn1">
                     INICIO
                 </div>
             </a>
-            <a href="portfolio.html">
-                <div class="indexBtn2">
-                    TRABAJOS
+            <a href="sections/servicios.html">
+                <div class="indexBtn1">
+                    SERVICIOS
                 </div>
             </a>
-            <a href="nosotros.html">
+            <a href="sections/portfolio.html">
+                <div class="indexBtn2">
+                    PORTFOLIO
+                </div>
+            </a>
+            <a href="sections/nosotros.html">
                 <div class="indexBtn3">
                     NOSOTROS
                 </div>
             </a>
-            <a href="contacto.html">
+            <a href="sections/contacto.html">
                 <div class="indexBtn4">
                     CONTACTO
 
