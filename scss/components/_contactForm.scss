@@ -3,6 +3,18 @@
     background: #eee;
     padding: 25px;
     font-family: 'Source Sans Pro', sans-serif;
+    div {
+        text-align: center;
+        padding-bottom: 20px;
+        a {
+            @include font($fontSecundaria, 'sans-serif', 500);
+            font-size: 1.5em;
+            color: black;
+        }
+        a:link {
+            color: #000000;
+        }
+    }
 }
 
 .campo-form {
@@ -41,4 +53,12 @@ textarea {
 
 .btn-form:hover {
     background: #444
+}
+
+.confirmaText {
+    background: #eee;
+    padding: 50px;
+    @include font($fontSecundaria, 'sans-serif', 300);
+    text-align: center;
+    font-size: 2em;
 }

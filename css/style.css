@@ -44,8 +44,9 @@ nav {
 
 .navLinks {
   display: none;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 .indexImg {
   background-color: white;
@@ -116,6 +117,12 @@ nav {
     font-size: 16px;
     padding: 0;
     margin: 0; }
+    @media (min-width: 360px) and (max-width: 600px) {
+      .navLinks ul {
+        flex-direction: column; } }
+    @media (max-width: 360px) {
+      .navLinks ul {
+        flex-direction: column; } }
   .navLinks li {
     display: flex;
     letter-spacing: 3px;
@@ -144,6 +151,8 @@ ul li:hover > ul {
   display: block; }
 
 .navBrand {
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
   background-color: #9C1831;
   text-align: center;
@@ -272,6 +281,16 @@ ul li:hover > ul {
   background: #eee;
   padding: 25px;
   font-family: 'Source Sans Pro', sans-serif; }
+  .form-consulta div {
+    text-align: center;
+    padding-bottom: 20px; }
+    .form-consulta div a {
+      font-weight: 500;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.5em;
+      color: black; }
+    .form-consulta div a:link {
+      color: #000000; }
 
 .campo-form {
   width: 100%;
@@ -306,7 +325,47 @@ textarea {
 .btn-form:hover {
   background: #444; }
 
+.confirmaText {
+  background: #eee;
+  padding: 50px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 2em; }
+
 .contactContent {
   display: flex;
   justify-content: center;
   margin: 50px; }
+
+.topnav {
+  overflow: hidden;
+  position: relative; }
+
+.topnav #myLinks {
+  display: none; }
+
+.icon {
+  display: block; }
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block; }
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black; }
+
+.active {
+  background-color: #4CAF50;
+  color: white; }

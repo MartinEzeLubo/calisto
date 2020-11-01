@@ -1,4 +1,6 @@
 .navBrand {
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
     background-color: $colorPrincipal;
     text-align: center;

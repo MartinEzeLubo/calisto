@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESTUDIO MARLA</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,12 +15,13 @@
     <div class="bodyContent">
         <nav class="navPrincipal">
             <div class="navBrand">
-                <div>
-                    <a href="index.html">
-                        <p>Marla</p>
-                    </a>
+                <a href="index.html">
+                    <p>Marla</p>
+                </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
 
-                </div>
             </div>
             <div class="navLinks">
                 <ul>
@@ -30,6 +32,7 @@
                     <li><a href="sections/contacto.html">Contacto</a></li>
 
                 </ul>
+
             </div>
             <div class="indexText">
                 <h1>DESIGN & WEB STUDIO</h1>
@@ -66,7 +69,18 @@
         </div>
     </div>
 
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("navLinks");
+            console.log(x);
+            if (x[0].style.display === "flex") {
+                x[0].style.display = "";
+            } else {
+                x[0].style.display = "flex";
 
+            }
+        }
+    </script>
 </body>
 
 </html>

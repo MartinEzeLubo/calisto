@@ -17,6 +17,12 @@
         font-size: 16px;
         padding: 0;
         margin: 0;
+        @include media(md) {
+            flex-direction: column;
+        }
+        @include media(sm) {
+            flex-direction: column;
+        }
     }
     li {
         display: flex;
